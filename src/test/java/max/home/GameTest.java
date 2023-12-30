@@ -18,11 +18,14 @@ public class GameTest {
 
     @BeforeEach
     void createDoors () {
+        //это можно вынести на строку 15
         doors = new ArrayList<>();
         doors.add(new Door(false));
         doors.add(new Door(false));
         doors.add(new Door(true));
+        //это можно вынести на строку 16
         player = new Player("Игрок в Монти-Холл");
+        //это можно вынести на строку 17
         game = new Game(player, doors);
     }
 
