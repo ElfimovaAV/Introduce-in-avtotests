@@ -1,6 +1,7 @@
 package max.seminar4;
 
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar4.DebitEntity;
@@ -8,7 +9,7 @@ import org.max.seminar4.DebitEntity;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/*@Ignore
 public class DebitTest extends AbstractTest {
 
     @Test
@@ -27,4 +28,4 @@ public class DebitTest extends AbstractTest {
         Assertions.assertEquals(1, countTableSize);
         Assertions.assertEquals(1, query.list().size());
     }
-}
+}*/

@@ -20,9 +20,11 @@
         <assured.version>5.3.0</assured.version>
         <jackson.version>2.15.0</jackson.version>
         <sql.version>3.42.0.0</sql.version>
+        <allure.junit.version>2.22.1</allure.junit.version>
         <hibernate-version>5.4.0.Final</hibernate-version>
         <flyway.version>8.5.13</flyway.version>
         <surefire.version>2.22.2</surefire.version>
+        <aspectj.version>1.8.10</aspectj.version>
     </properties>
 
     <!-- Архивирование -->
@@ -129,6 +131,19 @@
         <!--          <scope>test</scope>-->
         </dependency>
 
+        <!-- Лекция 6. Allure -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>${allure.junit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <!-- Сборка -->
@@ -163,6 +178,46 @@
                     </schemas>  -->
                     <url>jdbc:sqlite:home4.db</url>
                     <locations>filesystem:db/home4/migration</locations>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.21.0</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <systemProperties>
+                        <property>
+                            <name>junit.jupiter.extensions.autodetection.enabled</name>
+                            <value>true</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>junit-platform-surefire-provider</artifactId>
+                        <version>1.2.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.12.0</version>
+                <configuration>
+                    <!-- На момент написания лекции соответствующий архив не доступен,
+                    закомментируйте строку-->
+                    <!--<reportVersion>2.4.1</reportVersion>-->
+                    <!-- Добавим адрес директории для генератора отчета -->
+                    <buildDirectory>C:\Users\admin\Documents\Тестирование\Введение в автоматизацию тестирования\VvedenieVAvto</buildDirectory>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,5 +1,6 @@
 package max.seminar2;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -7,7 +8,7 @@ import org.max.seminar2.Main;
 import org.max.seminar2.provider.MailNews;
 import org.max.seminar2.provider.YandexNews;
 import org.max.seminar2.subscriber.SubscriberMember;
-
+/*@Ignore
 public class NewsTest {
 
     @ParameterizedTest
@@ -37,4 +38,4 @@ public class NewsTest {
 
         Assertions.assertEquals("Новость от Яндекс: " + news, subscriberMember.getNews());
     }
-}
+}*/

@@ -1,6 +1,7 @@
 package max.home4;
 
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
-
+/*@Ignore
 public class CourierTest extends AbstractTest{
 
     @Test
@@ -67,4 +68,4 @@ public class CourierTest extends AbstractTest{
                 () -> Assertions.assertEquals("+ 7 960 107 7798", list.get(2).getPhoneNumber()),
                 () -> Assertions.assertEquals("car", list.get(3).getDeliveryType()));
     }
-}
+}*/

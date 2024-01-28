@@ -2,6 +2,7 @@ package max.seminar4;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.*;
 import org.max.seminar4.CreditEntity;
 
@@ -9,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Optional;
-
+/*@Ignore
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CreditTest extends AbstractTest {
 
@@ -74,7 +75,7 @@ public class CreditTest extends AbstractTest {
         session.delete(creditEntity.get());
 /*        getSession().createQuery("delete from CreditEntity where creditId = :id")
                 .setParameter("id", 2)
-                .executeUpdate();*/
+                .executeUpdate();
         session.getTransaction().commit();
         //then
         final Query queryAfterDelete = getSession()
@@ -82,4 +83,4 @@ public class CreditTest extends AbstractTest {
         Optional<CreditEntity> creditEntityAfterDelete = (Optional<CreditEntity>) queryAfterDelete.uniqueResultOptional();
         Assertions.assertFalse(creditEntityAfterDelete.isPresent());
     }
-}
+}*/

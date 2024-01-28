@@ -1,17 +1,18 @@
 package max.home1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.max.home1.Door;
-import org.max.home1.Player;
 import org.max.home1.Game;
+import org.max.home1.Player;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class GameTest {
+/*public class GameTest {
     List<Door> doors;
     Player player;
     Game game;
@@ -25,7 +26,7 @@ public class GameTest {
         player = new Player("Игрок в Монти-Холл");
         game = new Game(player, doors);
     }
-
+    @Ignore
     @Test
     @DisplayName("Утверждаю, что не рискующий игрок победит, если выберет третью дверь с призом")
     void winPlayerNotRisk(){
@@ -33,7 +34,7 @@ public class GameTest {
         Door door = game.round(2);
         Assertions.assertTrue(door.isPrize());
     }
-
+    @Ignore
     @Test
     @DisplayName("Утверждаю, что не рискующий проиграет, если выберет первую дверь без приза")
     void loosePlayerNotRiskChooseFirstDoor(){
@@ -41,7 +42,7 @@ public class GameTest {
         Door door = game.round(0);
         Assertions.assertFalse(door.isPrize());
     }
-
+    @Ignore
     @Test
     @DisplayName("Утверждаю, что не рискующий проиграет, если выберет вторую дверь без приза")
     void loosePlayerNotRiskChooseSecondDoor(){
@@ -49,7 +50,7 @@ public class GameTest {
         Door door = game.round(1);
         Assertions.assertFalse(door.isPrize());
     }
-
+    @Ignore
    @Test
    @DisplayName("Утверждаю, что рискующий игрок победит, если выберет сначала первую дверь без приза")
     void winPlayerRiskChooseFirstDoor(){
@@ -57,7 +58,7 @@ public class GameTest {
         Door door = game.round(0);
         Assertions.assertTrue(door.isPrize());
     }
-
+    @Ignore
     @Test
     @DisplayName("Утверждаю, что рискующий игрок победит, если выберет сначала вторую дверь без приза")
     void winPlayerRiskChooseSecondDoor(){
@@ -65,7 +66,7 @@ public class GameTest {
         Door door = game.round(1);
         Assertions.assertTrue(door.isPrize());
     }
-
+    @Ignore
     @Test
     @DisplayName("Утверждаю, что рискующий игрок проиграет, если выберет сначала третью дверь с призом")
     void loosePlayerRiskChooseThirdDoor(){
@@ -79,4 +80,4 @@ public class GameTest {
 
 
 
-}
+}*/

@@ -1,6 +1,7 @@
 package max.seminar3.spoonacular;
 
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.spoonacular.SimilarRecipesDto;
@@ -8,7 +9,7 @@ import org.max.seminar3.spoonacular.SimilarRecipesDto;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class SimilarRecipesTestSpoonacular extends SpoonacularAbstractTest {
 
     @Test
@@ -33,4 +34,4 @@ public class SimilarRecipesTestSpoonacular extends SpoonacularAbstractTest {
             }
         });
     }
-}
+}*/

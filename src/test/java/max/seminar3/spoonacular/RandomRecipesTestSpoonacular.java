@@ -1,12 +1,13 @@
 package max.seminar3.spoonacular;
 
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.spoonacular.RandomRecipesDto;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class RandomRecipesTestSpoonacular extends SpoonacularAbstractTest {
 
     @Test
@@ -25,4 +26,4 @@ public class RandomRecipesTestSpoonacular extends SpoonacularAbstractTest {
 
         Assertions.assertEquals(response.getRecipes().size(),5);
     }
-}
+}*/

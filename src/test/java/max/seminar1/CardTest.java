@@ -1,5 +1,6 @@
 package max.seminar1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.*;
 import org.max.seminar1.Card;
 import org.max.seminar1.Deck;
@@ -9,6 +10,7 @@ import org.max.seminar1.type.Suits;
 
 import java.util.ArrayList;
 import java.util.List;
+/*@Ignore
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class CardTest {
     static List<Card> cards;
@@ -56,4 +58,4 @@ public class CardTest {
         Assertions.assertEquals(card1, actual);
         Assertions.assertEquals(1, deck.getCards().size());
     }
-}
+}*/

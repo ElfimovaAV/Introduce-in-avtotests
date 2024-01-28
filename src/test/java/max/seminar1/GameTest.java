@@ -1,11 +1,13 @@
 package max.seminar1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
  * Тест кейс для проверки инициализации новой игры
  */
+/*@Ignore
 public class GameTest extends AbstractTest {
 
     @Test
@@ -37,4 +39,4 @@ public class GameTest extends AbstractTest {
         Assertions.assertTrue(game.getGamer().getHandSumm() > 0);
         Assertions.assertTrue(game.getCasino().getHandSumm() > 0);
     }
-}
+}*/

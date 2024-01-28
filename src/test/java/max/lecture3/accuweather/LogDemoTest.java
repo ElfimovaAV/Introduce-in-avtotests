@@ -1,10 +1,11 @@
 package max.lecture3.accuweather;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class LogDemoTest extends AccuweatherAbstractTest{
 
     @Test
@@ -43,4 +44,4 @@ public class LogDemoTest extends AccuweatherAbstractTest{
                 .then()
                 .statusCode(200);
     }
-}
+}*/

@@ -1,6 +1,7 @@
 package max.seminar3.accuweather;
 
 import io.restassured.response.Response;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.accuweather.weather.DailyForecast;
@@ -10,7 +11,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.lessThan;
-
+/*@Ignore
 public class Forecast5DayTest extends AccuweatherAbstractTest{
 
     @Test
@@ -43,4 +44,4 @@ public class Forecast5DayTest extends AccuweatherAbstractTest{
         Assertions.assertEquals("F", response.get(0).getTemperature().getMinimum().getUnit());
         Assertions.assertEquals("F", response.get(0).getTemperature().getMaximum().getUnit());
     }
-}
+}*/

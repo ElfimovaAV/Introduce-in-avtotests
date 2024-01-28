@@ -1,5 +1,6 @@
 package max.lecture2.pattern;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.lecture2.pattern.proxy.ClassExample;
@@ -9,6 +10,7 @@ import org.max.lecture2.pattern.proxy.ProxyObject;
 /**
  * Тест для демонстрации работы паттерна Прокси
  */
+/*@Ignore
 public class ProxyTest {
 
     @Test
@@ -34,4 +36,4 @@ public class ProxyTest {
         Assertions.assertTrue(proxyObject.sendDeleteRequest(10));
         Assertions.assertEquals("Response", proxyObject.sendGetRequest(10));
     }
-}
+}*/

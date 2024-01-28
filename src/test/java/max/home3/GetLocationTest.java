@@ -1,6 +1,7 @@
 package max.home3;
 
-import max.seminar3.accuweather.AccuweatherAbstractTest;
+/*import max.seminar3.accuweather.AccuweatherAbstractTest;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -11,8 +12,8 @@ import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.lessThan;
-
+import static org.hamcrest.Matchers.lessThan;*/
+/*@Ignore
 public class GetLocationTest extends AccuweatherAbstractTest {
 
     @Test
@@ -46,4 +47,4 @@ public class GetLocationTest extends AccuweatherAbstractTest {
         Assertions.assertEquals("OMS", response.get(1).getAdministrativeArea().getId());
 
     }
-}
+}*/

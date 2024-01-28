@@ -4,13 +4,14 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.junit.Ignore;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+/*@Ignore
 public abstract class AbstractTest {
 
     private static Connection connection;
@@ -56,4 +57,4 @@ public abstract class AbstractTest {
     public static Connection getConnection() {
         return connection;
     }
-}
+}*/

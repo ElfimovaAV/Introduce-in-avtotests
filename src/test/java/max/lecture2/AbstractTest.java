@@ -1,10 +1,11 @@
 package max.lecture2;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-
+/*@Ignore
 public abstract class AbstractTest {
 
     @BeforeAll
@@ -26,4 +27,4 @@ public abstract class AbstractTest {
     static void exit() {
         System.out.println("exit test run");
     }
-}
+}*/

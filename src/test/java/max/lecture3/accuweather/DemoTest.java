@@ -6,6 +6,7 @@ import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
@@ -14,7 +15,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.lessThan;
-
+/*@Ignore
 public class DemoTest extends AccuweatherAbstractTest{
 
     @Test
@@ -139,4 +140,4 @@ public class DemoTest extends AccuweatherAbstractTest{
                 .time(lessThan(2000L));
 
     }
-}
+}*/

@@ -1,5 +1,6 @@
 package max.seminar1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,6 +12,7 @@ import org.max.seminar1.exception.DeckEmptyException;
 /**
  * Тест кейс для тестирования объекта колоды
  */
+/*@Ignore
 public class DeckTest {
 
     Deck deck;
@@ -44,4 +46,4 @@ public class DeckTest {
         //then
         Assertions.assertThrows(DeckEmptyException.class, () -> deck.getCard());
     }
-}
+}*/

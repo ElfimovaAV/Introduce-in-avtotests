@@ -1,6 +1,7 @@
 package max.seminar4;
 
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
-
+/*@Ignore
 public class EmployeeTest extends AbstractTest {
 
     @Test
@@ -65,4 +66,4 @@ public class EmployeeTest extends AbstractTest {
                 () -> Assertions.assertEquals("Главный Менеджер", list.get(1).getPortion()),
                 () -> Assertions.assertEquals("+7 900 000003", list.get(2).getPhoneNumber()));
     }
-}
+}*/

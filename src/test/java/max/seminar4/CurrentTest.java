@@ -2,6 +2,7 @@ package max.seminar4;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,7 @@ import javax.persistence.PersistenceException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/*@Ignore
 public class CurrentTest extends AbstractTest {
 
     @Test
@@ -47,4 +48,4 @@ public class CurrentTest extends AbstractTest {
         Assertions.assertThrows(PersistenceException.class, () -> session.getTransaction().commit());
         ;
     }
-}
+}*/

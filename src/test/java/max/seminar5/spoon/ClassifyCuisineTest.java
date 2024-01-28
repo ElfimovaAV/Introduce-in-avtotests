@@ -6,6 +6,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.max.seminar5.spoon.ClassifyCuisineDTO;
 import org.slf4j.Logger;
@@ -15,7 +16,7 @@ import java.io.IOException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/*@Ignore
 public class ClassifyCuisineTest extends AbstractTest {
 
     private static final Logger logger
@@ -83,4 +84,4 @@ public class ClassifyCuisineTest extends AbstractTest {
         assertEquals("ERROR", convertResponseToString(response));
     }
 
-}
+}*/

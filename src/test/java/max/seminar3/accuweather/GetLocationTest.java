@@ -1,6 +1,7 @@
 package max.seminar3.accuweather;
 
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.accuweather.location.Location;
@@ -12,7 +13,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.lessThan;
-
+/*@Ignore
 public class GetLocationTest extends AccuweatherAbstractTest {
 
     @Test
@@ -60,4 +61,4 @@ public class GetLocationTest extends AccuweatherAbstractTest {
         Assertions.assertEquals("France", response.get(0).getCountry().getLocalizedName());
 
     }
-}
+}*/

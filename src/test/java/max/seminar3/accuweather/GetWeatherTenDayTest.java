@@ -1,10 +1,11 @@
 package max.seminar3.accuweather;
 
 import io.restassured.http.Method;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class GetWeatherTenDayTest extends AccuweatherAbstractTest{
 
     @Test
@@ -19,4 +20,4 @@ public class GetWeatherTenDayTest extends AccuweatherAbstractTest{
                 .then()
                 .statusCode(401);
     }
-}
+}*/

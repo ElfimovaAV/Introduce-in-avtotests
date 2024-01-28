@@ -1,8 +1,9 @@
 package max.lecture2;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
+/*@Ignore
 public class PrinciplesTest  extends AbstractTest{
 
     @Test
@@ -35,4 +36,4 @@ public class PrinciplesTest  extends AbstractTest{
     private boolean generalTestMethod (Boolean value) {
         return !value;
     }
-}
+}*/

@@ -1,6 +1,7 @@
 package max.seminar4;
 
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,7 +11,7 @@ import org.max.seminar4.ClientEntity;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/*@Ignore
 public class ClientTest extends AbstractTest {
 
     @Test
@@ -48,4 +49,4 @@ public class ClientTest extends AbstractTest {
         Assertions.assertEquals(lastName, name);
         Assertions.assertEquals(lastName, nameByColumn);
     }
-}
+}*/

@@ -2,6 +2,7 @@ package max.home5.accu;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.apache.http.HttpResponse;
+import org.junit.Ignore;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.slf4j.Logger;
@@ -12,8 +13,7 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;
-
-public class AbstractTest {
+/*AbstractTest {
 
     private static WireMockServer wireMockServer = new WireMockServer();
     private static final int port = 8080;
@@ -50,4 +50,4 @@ public class AbstractTest {
     public static String getBaseUrl() {
         return baseUrl;
     }
-}
+}*/

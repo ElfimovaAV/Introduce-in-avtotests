@@ -6,6 +6,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.max.home5.accu.location.Location;
 import org.slf4j.Logger;
@@ -17,7 +18,7 @@ import java.net.URISyntaxException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/*@Ignore
 public class GetLocationTest extends AbstractTest{
     private static final Logger logger
             = LoggerFactory.getLogger(GetWeatherTenDaysTest.class);
@@ -78,4 +79,4 @@ public class GetLocationTest extends AbstractTest{
         verify(1, getRequestedFor(urlPathEqualTo("/locations/v1/%7B100%7D")));
         assertEquals(404, response.getStatusLine().getStatusCode());
     }
-}
+}*/

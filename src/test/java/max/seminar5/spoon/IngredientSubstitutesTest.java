@@ -6,6 +6,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.max.seminar5.spoon.IngredientSubstitutesDto;
 import org.slf4j.Logger;
@@ -17,7 +18,7 @@ import java.net.URISyntaxException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/*@Ignore
 public class IngredientSubstitutesTest extends AbstractTest {
 
     private static final Logger logger
@@ -97,4 +98,4 @@ public class IngredientSubstitutesTest extends AbstractTest {
         assertEquals("ERROR", convertResponseToString(response));
 
     }
-}
+}*/

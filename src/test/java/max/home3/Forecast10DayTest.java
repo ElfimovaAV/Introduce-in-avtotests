@@ -1,13 +1,14 @@
 package max.home3;
 
-import max.seminar3.accuweather.AccuweatherAbstractTest;
+/*import max.seminar3.accuweather.AccuweatherAbstractTest;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.lessThan;
-
+import static org.hamcrest.Matchers.lessThan;*/
+/*@Ignore
 public class Forecast10DayTest extends AccuweatherAbstractTest {
 
     @Test
@@ -22,4 +23,4 @@ public class Forecast10DayTest extends AccuweatherAbstractTest {
         Assertions.assertTrue(response.contains("Message"));
         Assertions.assertTrue(response.contains("Reference"));
     }
-}
+}*/

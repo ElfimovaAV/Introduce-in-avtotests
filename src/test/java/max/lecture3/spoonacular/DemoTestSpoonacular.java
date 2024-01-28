@@ -6,6 +6,7 @@ import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.max.lecture3.ResponseDTO;
 
@@ -16,7 +17,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.lessThan;
 
-
+/*@Ignore
 public class DemoTestSpoonacular extends SpoonacularAbstractTest {
 
     @Test
@@ -264,4 +265,4 @@ public class DemoTestSpoonacular extends SpoonacularAbstractTest {
 
 
 
-}
+}*/

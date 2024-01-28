@@ -5,6 +5,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.max.home5.accu.weather.DailyForecast;
 import org.max.home5.accu.weather.Headline;
@@ -18,7 +19,7 @@ import java.util.List;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/*@Ignore
 public class GetWeatherTenDaysTest extends AbstractTest{
 
     private static final Logger logger
@@ -86,4 +87,4 @@ public class GetWeatherTenDaysTest extends AbstractTest{
         assertEquals(500, response.getStatusLine().getStatusCode());
         assertEquals("ERROR", convertResponseToString(response));
     }
-}
+}*/

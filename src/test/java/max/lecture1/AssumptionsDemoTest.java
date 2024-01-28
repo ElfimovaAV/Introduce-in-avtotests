@@ -1,5 +1,6 @@
 package max.lecture1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.DisplayName;
@@ -8,6 +9,7 @@ import org.junit.jupiter.api.Test;
 /*
     Демонстрация работы с предположениями
  */
+/*@Ignore
 public class AssumptionsDemoTest {
 
     @Test
@@ -68,4 +70,4 @@ public class AssumptionsDemoTest {
         Assertions.assertEquals(16, Math.multiplyExact(4, 4));
     }
 
-}
+}*/

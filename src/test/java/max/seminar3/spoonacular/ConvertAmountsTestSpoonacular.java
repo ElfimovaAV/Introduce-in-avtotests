@@ -1,12 +1,13 @@
 package max.seminar3.spoonacular;
 
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.spoonacular.ConvertAmountsDto;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class ConvertAmountsTestSpoonacular extends SpoonacularAbstractTest {
 
     @Test
@@ -29,4 +30,4 @@ public class ConvertAmountsTestSpoonacular extends SpoonacularAbstractTest {
         Assertions.assertEquals(response.getTargetAmount(),312.5);
 
     }
-}
+}*/

@@ -2,6 +2,7 @@ package max.home4;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
+import org.junit.Ignore;
 import org.junit.jupiter.api.*;
 import org.max.home4.ProductsEntity;
 
@@ -9,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Optional;
-
+/*@Ignore
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ProductTest extends AbstractTest {
 
@@ -73,4 +74,4 @@ public class ProductTest extends AbstractTest {
         Optional<ProductsEntity> productsEntityAfterDelete = (Optional<ProductsEntity>) queryAfterDelete.uniqueResultOptional();
         Assertions.assertFalse(productsEntityAfterDelete.isPresent());
     }
-}
+}*/

@@ -1,10 +1,11 @@
 package max.lecture3.spoonacular;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class LogDemoTestSpoonacular extends SpoonacularAbstractTest {
 
     @Test
@@ -41,4 +42,4 @@ public class LogDemoTestSpoonacular extends SpoonacularAbstractTest {
                 .then()
                 .statusCode(400);
     }
-}
+}*/

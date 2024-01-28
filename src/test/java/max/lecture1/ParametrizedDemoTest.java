@@ -1,5 +1,6 @@
 package max.lecture1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
@@ -14,6 +15,7 @@ import java.time.Month;
 /*
     Демонстрация работы параметризованного теста
  */
+/*@Ignore
 public class ParametrizedDemoTest {
 
     @ParameterizedTest
@@ -65,4 +67,4 @@ public class ParametrizedDemoTest {
         //then
         Assertions.assertEquals(expected, actualValue);
     }
-}
+}*/

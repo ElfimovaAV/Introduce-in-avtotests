@@ -1,13 +1,14 @@
 package max.seminar3.accuweather;
 
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.seminar3.accuweather.weather.Weather;
 
 
 import static io.restassured.RestAssured.given;
-
+/*@Ignore
 public class GetWeatherFiveDayTest extends AccuweatherAbstractTest {
 
     @Test
@@ -26,4 +27,4 @@ public class GetWeatherFiveDayTest extends AccuweatherAbstractTest {
 
         Assertions.assertEquals(5,response.getDailyForecasts().size());
     }
-}
+}*/

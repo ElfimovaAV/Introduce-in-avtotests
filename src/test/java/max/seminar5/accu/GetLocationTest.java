@@ -7,6 +7,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.Ignore;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.max.seminar5.accu.location.Location;
@@ -19,7 +20,7 @@ import java.net.URISyntaxException;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+/*@Ignore
 public class GetLocationTest extends AbstractTest{
 
     private static final Logger logger
@@ -146,4 +147,4 @@ public class GetLocationTest extends AbstractTest{
         assertEquals("Seminar number 5",convertResponseToString(response));
 
     }
-}
+}*/

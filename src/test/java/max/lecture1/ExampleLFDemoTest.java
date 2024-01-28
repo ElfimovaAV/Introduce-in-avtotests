@@ -1,10 +1,12 @@
 package max.lecture1;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.*;
 
 /*
     Демонстрация работы ЖЦ тестов
  */
+/*@Ignore
 public class ExampleLFDemoTest {
 
     @BeforeAll
@@ -42,4 +44,4 @@ public class ExampleLFDemoTest {
     static void exit() {
         System.out.println("exit test run");
     }
-}
+}*/

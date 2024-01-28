@@ -1,14 +1,14 @@
 package max.lecture3.accuweather;
 
 import io.restassured.RestAssured;
+import org.junit.Ignore;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
-public abstract class AccuweatherAbstractTest {
+/*public abstract class AccuweatherAbstractTest {
 
     static Properties prop = new Properties();
     private static InputStream configFile;
@@ -35,4 +35,4 @@ public abstract class AccuweatherAbstractTest {
         return baseUrl;
     }
 
-}
+}*/

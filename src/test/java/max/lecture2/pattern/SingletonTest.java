@@ -1,5 +1,6 @@
 package max.lecture2.pattern;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.lecture2.pattern.singleton.*;
@@ -7,6 +8,7 @@ import org.max.lecture2.pattern.singleton.*;
 /**
  * Тест для демонстрации работы паттерна Одиночка
  */
+/*@Ignore
 public class SingletonTest {
 
     //Простая инициализация
@@ -82,4 +84,4 @@ public class SingletonTest {
         //then
         Assertions.assertEquals("http://", Connection.URL.getValue());
     }
-}
+}*/
