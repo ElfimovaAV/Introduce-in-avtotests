@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: max.home6.IngredientSubstitutesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.739 s <<< FAILURE! - in max.home6.IngredientSubstitutesTest
+getIngredientSubstitutes_whenValid_shouldReturn  Time elapsed: 0.737 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected response time was not a value less than <500L> milliseconds, was 674 milliseconds (674 milliseconds).
+	at max.home6.IngredientSubstitutesTest.getIngredientSubstitutes_whenValid_shouldReturn(IngredientSubstitutesTest.java:33)
+

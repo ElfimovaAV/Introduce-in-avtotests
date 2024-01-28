@@ -1,0 +1,1 @@
+{"uuid":"2c151a11-bc24-4045-b8fb-f6e7fe017e39","name":"TestDefectsTest","children":["722d9e6f-bbc9-4575-94d0-9e90875bdf6d"],"befores":[{"name":"initTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1706457071303,"stop":1706457071303}],"afters":[],"start":1706457071302,"stop":1706457071310}

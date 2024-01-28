@@ -1,6 +1,6 @@
-package max.seminar6;
+package max.home6;
 
-/*import io.restassured.RestAssured;
+import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.io.FileInputStream;
@@ -35,4 +35,4 @@ public abstract class AbstractTest {
         return baseUrl;
     }
 
-}*/
+}

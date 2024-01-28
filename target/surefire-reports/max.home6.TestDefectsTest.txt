@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: max.home6.TestDefectsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in max.home6.TestDefectsTest
+ArithmeticExceptionTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at max.home6.TestDefectsTest.ArithmeticExceptionTest(TestDefectsTest.java:12)
+

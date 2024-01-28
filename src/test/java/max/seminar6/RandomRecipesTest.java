@@ -1,6 +1,6 @@
 package max.seminar6;
 
-import io.qameta.allure.*;
+/*import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -35,4 +35,4 @@ public class RandomRecipesTest extends AbstractTest {
 
         Assertions.assertEquals(response.getRecipes().size(),5);
     }
-}
+}*/
